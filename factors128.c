@@ -38,9 +38,9 @@ int main(int argc, char *argv[])
 		{
 			number = strtok(content, " \n");
 			n = ConvertNum(number);
-			printf("%lld\n", n);
+			printf("%llx\n", n);
 			F = FindFactor(n, f);
-			printf("%lld=%lld*%lld\n", n, F[1], F[0]);
+			printf("%llx=%llx*%llx\n", n, F[1], F[0]);
 		}
 		free(content);
 	}

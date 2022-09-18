@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-FindFactors = __import__('find_factors').FindFactors
+find_prime_factors = __import__('find_factors').find_prime_factors
 import sys
 
 #This program factors a number into two different numbers
@@ -21,7 +21,7 @@ if __name__ == "__main__":
             num = int(num)
 
             #find the factors of num and return them to factors
-            factors = FindFactors(num)
+            factors = find_prime_factors(num)
         except ValueError:
             break
 

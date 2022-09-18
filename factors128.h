@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <math.h>
-#include <int128.h>
+#include <inttypes.h>
 
 /* variables used */
 unsigned __int128 *F;
